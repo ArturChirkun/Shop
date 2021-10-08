@@ -1,0 +1,57 @@
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.6rem;
+}
+
+.header-info {
+    display: flex;
+    width: 100%;
+    border-bottom: solid 1px rgba(21, 21, 21, 0.05);
+    
+}
+.header-info ul {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+
+}
+
+
+.header-info-contacts {
+    margin-right: auto;
+}
+
+.header-info-contacts ul li {
+    margin-right: 3.3rem;
+}
+
+.header-info-info {
+    margin-left: auto;
+}
+
+.header-info-info ul li{
+    margin-left: 3.8rem;
+}
+
+.header-search {
+    display: flex;
+    width: 100%;
+    padding: 4rem 0;
+}
+
+.search-bar {
+    margin: auto;
+}
+
+.search-bar input {
+    border-radius: 10px;
+    background-color: #F9F9F9;
+}
+
+.label {
+    font-weight: bold;
+    font-size: 1.8rem;
+}
