@@ -1,0 +1,63 @@
+.best-selling-products-cards {
+    display: flex;
+    padding-right: 4.5rem;
+}
+.best-selling-products-cards div {
+    margin-left: 3.2rem;
+    border: 1px solid #D1D1D1;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 1.6rem;
+}
+.best-selling-products-cards .img {
+    margin:0;
+    width: 23.7rem;
+    height: 18rem;
+    background: #F9F9F9;
+}
+.best-selling-products-cards .img span {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #6A983C;
+}
+
+.best-selling-products-cards h1{
+    display: inline-block;
+    margin-right: 7.1rem;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+.best-selling-products-cards h2 {
+    font-style: normal;
+    font-size: 15px;
+    line-height: 22px;
+}
+.best-selling-products-cards h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+    line-height: 16px;
+}
+.best-selling-products-cards button {
+    background: #6A983C;
+    border: 2px solid #46760A;
+    box-sizing: border-box;
+    border-radius: 12px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding: 0.45rem 1.2rem;
+}
+.best-selling-products-cards span {
+    display: block;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    text-decoration-line: line-through;
+    color: #A9A9A9;
+}

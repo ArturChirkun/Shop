@@ -44,18 +44,22 @@ const Header = () => {
                     </ul>
                 </div>
             </div>
+            
             <div className = 'header-search'>
                 <div className = 'label'>
                     <img src = {label} alt = 'label' />
                 </div>
                 <div className = 'search-bar'>
-                    <select size="1">
-                        <option  disabled value="1">All categories</option>
-                        <option value="2">p2</option>
-                    </select>
-                    <input type = 'search' placeholder = 'Search products, categories'>
-                    </input>
-                    <img src = {searchIcon} alt = 'search-icon'/>
+                    <div className = 'search-bar-content'>                   
+                        <select size="1">
+                            <option  selected = 'selected' disabled value="1">All categories</option>
+                            <option value="2">p2</option>
+                        </select> 
+                        <hr />
+                        <input type = 'search' placeholder = 'Search products, categories'>
+                        </input>
+                        <img src = {searchIcon} alt = 'search-icon'/>
+                    </div>
                 </div>
                 <div className = 'profile-basket'>
                     <img src = {userIcon} alt = 'user-icon'/>
