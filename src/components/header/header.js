@@ -44,6 +44,7 @@ const Header = () => {
                     </ul>
                 </div>
             </div>
+            
             <div className = 'header-search'>
                 <div className = 'label'>
                     <img src = {label} alt = 'label' />
