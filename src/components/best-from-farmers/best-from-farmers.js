@@ -51,6 +51,8 @@ const BestFromFarmers = () => {
                     <button>
                         Buy now
                     </button>
+                    <span>
+                    </span>
                 </div>
                     
                 <div>
